@@ -1,0 +1,54 @@
+/* Resetowanie domyślnych stylów przeglądarki */
+body, h1, h2, h3, p, ul, ol, li, form, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Domyślne dla całej strony */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Wspólne dla wszystkich bloków banera i stopki */
+.banner, .footer {
+    background-color: SaddleBrown;
+    color: white;
+    height: 100px;
+}
+
+/* Dodatkowo dla lewego bloku banera i lewego bloku stopki */
+.left-banner, .left-footer {
+    width: 55%;
+    font-size: 120%;
+}
+
+/* Dodatkowo dla środkowego bloku banera i środkowego bloku stopki */
+.middle-banner, .middle-footer {
+    width: 25%;
+}
+
+/* Dodatkowo dla prawego bloku banera i prawego bloku stopki */
+.right-banner, .right-footer {
+    width: 20%;
+    text-align: right;
+}
+
+/* Dla bloku głównego */
+.main-content {
+    background-color: Snow;
+    padding: 70px;
+}
+
+/* Dla odnośnika */
+.left-footer a {
+    border: 2px dotted SaddleBrown;
+    background-color: Snow;
+    color: SaddleBrown;
+    padding: 20px;
+    line-height: 100px;
+}
+
+/* Dla listy numerowanej */
+.middle-footer ol {
+    list-style-type: lower-alpha;
+}
